@@ -1,0 +1,9 @@
+{
+  "name": "dark-factory-fixture",
+  "version": "1.0.0",
+  "description": "Minimal fixture repo for Dark Factory end-to-end green spike. Gate: npm run test = echo ok (exits 0, no deps).",
+  "scripts": {
+    "test": "echo ok"
+  },
+  "license": "MIT"
+}
