@@ -1,9 +1,13 @@
 {
   "name": "dark-factory-fixture",
-  "version": "1.0.0",
-  "description": "Minimal fixture repo for Dark Factory end-to-end green spike. Gate: npm run test = echo ok (exits 0, no deps).",
+  "version": "2.0.0",
+  "description": "Fixture for the Dark Factory L2 author-sandbox smoke. Scoped vitest include (src/**) + an unimplemented `greet`, so a spec-derived acceptance test under .factory-tests/ is red-before AND out of the repo's include scope.",
+  "type": "module",
   "scripts": {
-    "test": "echo ok"
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
   },
   "license": "MIT"
 }
