@@ -3,7 +3,7 @@ import type { BaseDeps, DocumentStore } from './runtime/types.ts'
 
 export type LookupOrderInput = { "order_number": string }
 export type LookupOrderOutput = { "order_details"?: string }
-export type IssueRefundInput = { "order_number": string; "amount": number }
+export type IssueRefundInput = { "amount": number; "order_number": string }
 export type IssueRefundOutput = { "confirmation"?: string }
 
 /** What production supplies (§8.1): connections, the approval secret and the off switch. No behaviour. */
