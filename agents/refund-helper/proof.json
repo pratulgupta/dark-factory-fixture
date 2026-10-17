@@ -1,8 +1,8 @@
 {
   "format": 1,
-  "runId": "run_2a0d1ac0-7899-40f7-a786-67fcbf5872fb",
-  "buildKey": "55bb2d707e2d9cf31baabd4034b70209d186623d427b875e4cc956079ed5aefe",
-  "agentDirHash": "44620cd9caa56d5dc56466d4ca61cb4252a4130ac35c8a4fe0b52841036e0570",
+  "runId": "run_8a1f68d9-eba9-4f72-8a4a-abb51368d6c0",
+  "buildKey": "2438ea74cebd2c7e4f41206d526dd378746cd2b788961bff6288eafdf65c69b5",
+  "agentDirHash": "daf9afe8dc17da55a56aad7431d0e717b32c992d2ae10fc88f5d1021b19db757",
   "aiVersion": "7.0.137",
   "reportedModel": "claude-sonnet-5-5",
   "cases": [
@@ -11,7 +11,7 @@
       "caseId": "sc-1",
       "instructionId": "IN-1",
       "outcome": "not-needed",
-      "runDigest": "c4e75a22ee7aa3303bb2de4226dd834b75c8117638507b57a7c8c07cb268ab36",
+      "runDigest": "54d768730aecd6503101df6da7b485389b899c364c0a127fde1f7264d35cf990",
       "with": {
         "passes": 10,
         "runs": 10,
@@ -21,7 +21,7 @@
         "passes": 10,
         "runs": 10,
         "builds": 1,
-        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+        "instructionSetHash": "10d447c17f484d5f8eebe7bad7caaac2a585919fade5fa7d8e2ea3751c12afd0"
       },
       "incomplete": {
         "runs": 0,
@@ -45,8 +45,8 @@
         }
       },
       "rotation": {
-        "with": 9,
-        "without": 9
+        "with": 18,
+        "without": 18
       }
     },
     {
@@ -54,7 +54,7 @@
       "caseId": "sc-4",
       "instructionId": "IN-1",
       "outcome": "not-needed",
-      "runDigest": "2977d71db4732ed36ba86ef98a5aefa59dbdb3dcee75b00d42ce5ba2cb523240",
+      "runDigest": "604064827b311dd6e21be8dfbf8e93c1c4660d82cf10cd18352f1dc2d14faf47",
       "with": {
         "passes": 10,
         "runs": 10,
@@ -64,7 +64,7 @@
         "passes": 8,
         "runs": 10,
         "builds": 1,
-        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+        "instructionSetHash": "10d447c17f484d5f8eebe7bad7caaac2a585919fade5fa7d8e2ea3751c12afd0"
       },
       "incomplete": {
         "runs": 0,
@@ -88,26 +88,26 @@
         }
       },
       "rotation": {
-        "with": 9,
-        "without": 9
+        "with": 18,
+        "without": 18
       }
     },
     {
       "kind": "agent-case",
       "caseId": "sc-2",
       "instructionId": "IN-2",
-      "outcome": "proven",
-      "runDigest": "79be88ef35d9ff781fea69e9d9803d38f3dd0d6db4752a492df6d0b470bead46",
+      "outcome": "not-reliable",
+      "runDigest": "bc4703d80363187841d895501a5f718cd32b20a43dbf963ac5753d6366eaff0c",
       "with": {
-        "passes": 4,
-        "runs": 5,
+        "passes": 7,
+        "runs": 10,
         "builds": 1
       },
       "without": {
         "passes": 0,
-        "runs": 5,
-        "builds": 1,
-        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+        "runs": 0,
+        "builds": 0,
+        "instructionSetHash": "10d447c17f484d5f8eebe7bad7caaac2a585919fade5fa7d8e2ea3751c12afd0"
       },
       "incomplete": {
         "runs": 0,
@@ -127,7 +127,7 @@
         }
       },
       "rotation": {
-        "with": 5,
+        "with": 15,
         "without": 5
       }
     },
@@ -136,9 +136,9 @@
       "caseId": "sc-3",
       "instructionId": "IN-3",
       "outcome": "failing",
-      "runDigest": "0cce82aa62d72d356053726271c52d8c8d216f8a2b217432722e44164cc234b8",
+      "runDigest": "d2e65201e193c12d8136f51d2df2e9f22e14d51b0ca0e8cf80eab82eee268138",
       "with": {
-        "passes": 0,
+        "passes": 3,
         "runs": 10,
         "builds": 1
       },
@@ -146,7 +146,7 @@
         "passes": 0,
         "runs": 0,
         "builds": 0,
-        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+        "instructionSetHash": "10d447c17f484d5f8eebe7bad7caaac2a585919fade5fa7d8e2ea3751c12afd0"
       },
       "incomplete": {
         "runs": 0,
@@ -166,12 +166,12 @@
         }
       },
       "rotation": {
-        "with": 10,
+        "with": 20,
         "without": 0
       }
     }
   ],
-  "casesHash": "3aa8fee0256f2a5f8db26585e415d3662b153eea0b655c92539a1be46ca51efa",
-  "signature": "LZt0YekxrIlM3teAhbIhEC516p18PG4K+g6fY7qJkbBIpdADLQPZZSUpCw3J58TgZVHstVM/ENyscQxBJMv7Bw==",
+  "casesHash": "9fdcd528c850a9e5639a71d1231f22f3901b44200c53f005e254db0cc17ba938",
+  "signature": "QcBbfsIZoPmU9KlQHaPmNNyRZ4Uv34w6MOA6ad4zjG/aBYElJ/+CgB1N0S6DobRpYyusM6INdoeeAD4qYGAbBQ==",
   "kid": "0a99133446abf2b4"
 }
