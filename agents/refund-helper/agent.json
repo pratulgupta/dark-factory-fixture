@@ -1,0 +1,90 @@
+{
+  "agentFormat": 1,
+  "name": "refund-helper",
+  "adapter": "ts/ai-sdk",
+  "adapterVersion": "0.1.0",
+  "aiVersion": "7.0.137",
+  "model": {
+    "provider": "anthropic",
+    "id": "claude-sonnet-5-5"
+  },
+  "sampling": {},
+  "maxSteps": 20,
+  "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f",
+  "tools": [
+    {
+      "id": "tool-1",
+      "name": "lookup_order",
+      "description": "Looks up an order by its order number and returns the order details.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "order_number": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "order_number"
+        ],
+        "additionalProperties": false
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "order_details": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "effect": "reads",
+      "permission": "allowed",
+      "hardLimits": []
+    },
+    {
+      "id": "tool-2",
+      "name": "issue_refund",
+      "description": "Issues a refund for an order given the order number and the refund amount.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "order_number": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "order_number",
+          "amount"
+        ],
+        "additionalProperties": false
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "confirmation": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "effect": "changes",
+      "permission": "asks-first",
+      "hardLimits": [],
+      "approvalCondition": {
+        "field": "amount",
+        "op": "gt",
+        "value": 500
+      },
+      "approvalTimeout": {
+        "afterMinutes": 240,
+        "then": "hand-off"
+      }
+    }
+  ],
+  "proofPublicKeyPem": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAbrIss3haXn6rCS6GqwXxk/GGSG9BR71SAXbffRDaZGE=\n-----END PUBLIC KEY-----\n"
+}

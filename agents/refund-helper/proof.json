@@ -1,0 +1,177 @@
+{
+  "format": 1,
+  "runId": "run_2a0d1ac0-7899-40f7-a786-67fcbf5872fb",
+  "buildKey": "55bb2d707e2d9cf31baabd4034b70209d186623d427b875e4cc956079ed5aefe",
+  "agentDirHash": "44620cd9caa56d5dc56466d4ca61cb4252a4130ac35c8a4fe0b52841036e0570",
+  "aiVersion": "7.0.137",
+  "reportedModel": "claude-sonnet-5-5",
+  "cases": [
+    {
+      "kind": "agent-case",
+      "caseId": "sc-1",
+      "instructionId": "IN-1",
+      "outcome": "not-needed",
+      "runDigest": "c4e75a22ee7aa3303bb2de4226dd834b75c8117638507b57a7c8c07cb268ab36",
+      "with": {
+        "passes": 10,
+        "runs": 10,
+        "builds": 1
+      },
+      "without": {
+        "passes": 10,
+        "runs": 10,
+        "builds": 1,
+        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+      },
+      "incomplete": {
+        "runs": 0,
+        "reasons": {}
+      },
+      "judgeChecked": false,
+      "runFacts": {
+        "reportedModel": "claude-sonnet-5-5",
+        "sampling": {},
+        "adapterVersion": "0.1.0",
+        "aiVersion": "7.0.137",
+        "documentsHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fakesHash": "df421bae189c4c0d8bf29134634512746db9d9e9f9ba8718eee147d1abfabf88",
+        "customer": {
+          "model": "claude-sonnet-5-5",
+          "promptVersion": 1
+        },
+        "judge": {
+          "modelId": "claude-opus-4-8",
+          "promptVersion": 1
+        }
+      },
+      "rotation": {
+        "with": 9,
+        "without": 9
+      }
+    },
+    {
+      "kind": "agent-case",
+      "caseId": "sc-4",
+      "instructionId": "IN-1",
+      "outcome": "not-needed",
+      "runDigest": "2977d71db4732ed36ba86ef98a5aefa59dbdb3dcee75b00d42ce5ba2cb523240",
+      "with": {
+        "passes": 10,
+        "runs": 10,
+        "builds": 1
+      },
+      "without": {
+        "passes": 8,
+        "runs": 10,
+        "builds": 1,
+        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+      },
+      "incomplete": {
+        "runs": 0,
+        "reasons": {}
+      },
+      "judgeChecked": false,
+      "runFacts": {
+        "reportedModel": "claude-sonnet-5-5",
+        "sampling": {},
+        "adapterVersion": "0.1.0",
+        "aiVersion": "7.0.137",
+        "documentsHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fakesHash": "df421bae189c4c0d8bf29134634512746db9d9e9f9ba8718eee147d1abfabf88",
+        "customer": {
+          "model": "claude-sonnet-5-5",
+          "promptVersion": 1
+        },
+        "judge": {
+          "modelId": "claude-opus-4-8",
+          "promptVersion": 1
+        }
+      },
+      "rotation": {
+        "with": 9,
+        "without": 9
+      }
+    },
+    {
+      "kind": "agent-case",
+      "caseId": "sc-2",
+      "instructionId": "IN-2",
+      "outcome": "proven",
+      "runDigest": "79be88ef35d9ff781fea69e9d9803d38f3dd0d6db4752a492df6d0b470bead46",
+      "with": {
+        "passes": 4,
+        "runs": 5,
+        "builds": 1
+      },
+      "without": {
+        "passes": 0,
+        "runs": 5,
+        "builds": 1,
+        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+      },
+      "incomplete": {
+        "runs": 0,
+        "reasons": {}
+      },
+      "judgeChecked": true,
+      "runFacts": {
+        "reportedModel": "claude-sonnet-5-5",
+        "sampling": {},
+        "adapterVersion": "0.1.0",
+        "aiVersion": "7.0.137",
+        "documentsHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fakesHash": "df421bae189c4c0d8bf29134634512746db9d9e9f9ba8718eee147d1abfabf88",
+        "customer": {
+          "model": "claude-sonnet-5-5",
+          "promptVersion": 1
+        }
+      },
+      "rotation": {
+        "with": 5,
+        "without": 5
+      }
+    },
+    {
+      "kind": "agent-case",
+      "caseId": "sc-3",
+      "instructionId": "IN-3",
+      "outcome": "failing",
+      "runDigest": "0cce82aa62d72d356053726271c52d8c8d216f8a2b217432722e44164cc234b8",
+      "with": {
+        "passes": 0,
+        "runs": 10,
+        "builds": 1
+      },
+      "without": {
+        "passes": 0,
+        "runs": 0,
+        "builds": 0,
+        "instructionSetHash": "64dec76eee0f82e882b44682e4559c8c4dee6131b3a443645fca01140aaaca0f"
+      },
+      "incomplete": {
+        "runs": 0,
+        "reasons": {}
+      },
+      "judgeChecked": true,
+      "runFacts": {
+        "reportedModel": "claude-sonnet-5-5",
+        "sampling": {},
+        "adapterVersion": "0.1.0",
+        "aiVersion": "7.0.137",
+        "documentsHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fakesHash": "df421bae189c4c0d8bf29134634512746db9d9e9f9ba8718eee147d1abfabf88",
+        "customer": {
+          "model": "claude-sonnet-5-5",
+          "promptVersion": 1
+        }
+      },
+      "rotation": {
+        "with": 10,
+        "without": 0
+      }
+    }
+  ],
+  "casesHash": "3aa8fee0256f2a5f8db26585e415d3662b153eea0b655c92539a1be46ca51efa",
+  "signature": "LZt0YekxrIlM3teAhbIhEC516p18PG4K+g6fY7qJkbBIpdADLQPZZSUpCw3J58TgZVHstVM/ENyscQxBJMv7Bw==",
+  "kid": "0a99133446abf2b4"
+}
